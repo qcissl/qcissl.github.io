@@ -9,6 +9,7 @@
 </head>
 <body>
 <h1>Hello,World!</h1>
+<a class="btn btn-xs btn-social btn-default" onclick="findListByPage(-1);"> <i class="glyphicon glyphicon-search"></i> 查询</a> 
 </body>
 <script>
 $(function(){
@@ -16,5 +17,9 @@ $(function(){
 		alert("......");
 	});
 })
+
+function findListByPage(page){
+	alert(page);
+}
 </script>
 </html>
