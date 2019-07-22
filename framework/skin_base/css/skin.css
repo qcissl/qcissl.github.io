@@ -1,6 +1,6 @@
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 1px;
+    padding-left: 1px;
 }
 .banner{
     width: 100%;
@@ -33,26 +33,30 @@
 
 .page_list{
     width: 100%;
+    color: #454545;
     height: auto;
-    background: rgba(220, 220, 220, 0.5);
+    background: rgba(230, 230, 230, 0.5);
 }
 .page_list_entry{
+    padding: 10px;
     border-bottom: 1px solid black;
 }
 .page_list_entry p:first-child{
-    font-size: 20px;
+    line-height: 35px;
+    font-size: 25px;
     font-weight: bold;
 }
 .page_list_entry p:nth-child(2){
+    color: #575757;
     font-size: 15px;
 }
 .page_list_entry p:nth-child(3){
-    text-align: center;
+    color: #7a7a7a;
 }
 
 .right_list{
     width: 100%;
     height: auto;
-    background: rgba(220, 220, 220, 0.5);
-    border-left: 1px solid wheat;
+    color: #454545;
+    background: rgba(230, 230, 230, 0.5);
 }

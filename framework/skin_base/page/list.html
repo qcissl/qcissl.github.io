@@ -10,16 +10,10 @@
 <script type="application/javascript">
     $(function () {
         $.properties.config({
-            name:'appconfig',
-            path:'config/',
-            callback:function(){
-                $.properties.config({
-                    name:$.properties.prop("page.list.name"),
-                    path:$.properties.prop("page.list.path")
-                });
-            }
+            name:['appconfig','pagelist'],
+            path:'config/'
         });
-
+        console.log($.properties.map);
     });
 </script>
 <body>

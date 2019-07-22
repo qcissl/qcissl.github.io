@@ -25,6 +25,9 @@
         var files = (settings.name && settings.name.constructor === Array) ? settings.name : [settings.name];
 
         files.forEach(function (file) {
+            if (!settings.namespace || settings.name.constructor === Array){
+                settings.namespace = file;
+            }
             var defaultFileName = settings.path + file + '.properties';
             loadAndParseFile(defaultFileName, settings);
         });
@@ -111,6 +114,9 @@
                         }
                         // add to map
                         if (settings.namespace) {
+                            if(!$.properties.map[settings.namespace]){
+                                $.properties.map[settings.namespace]={};
+                            }
                             $.properties.map[settings.namespace][name] = value;
                         } else {
                             $.properties.map[name] = value;
