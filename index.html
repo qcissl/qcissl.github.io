@@ -5,23 +5,24 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="framework/skin_base/css/skin.css">
 <script src="jQuery/jquery-2.2.3.min.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
-<h1>Hello,World!</h1>
-<a class="btn btn-xs btn-social btn-default" onclick="findListByPage(-1);"> <i class="glyphicon glyphicon-search"></i> 查询</a>
-<a href="framework/head.html">goto head</a>
+<div class="include" file="framework/head.html"></div>
 </body>
 <script>
-$(function(){
-	$("h1").click(function(){
-
+    $(function () {
+        $(".include").each(function() {
+            var file = $(this).attr("file");
+            if(file) {
+                var thisObj = $(this);
+                $.get(file, function(html) {
+                    thisObj.after(html).remove();
+                });
+            }
+        });
     });
-})
-
-function findListByPage(page){
-	alert(page);
-}
 </script>
 </html>
