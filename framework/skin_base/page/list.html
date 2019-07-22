@@ -13,13 +13,23 @@
             name:'appconfig',
             path:'config/',
             callback:function(){
-                console.log($.properties.prop("application.name"));
+                $.properties.config({
+                    name:$.properties.prop("page.list.name"),
+                    path:$.properties.prop("page.list.path")
+                });
             }
         });
 
     });
 </script>
 <body>
-
+<div class="page_list">
+    <div class="page_list_entry">
+        <p>No description, website, or topics provided. </p>
+        <p>The password you provided is weak and can be easily guessed. To increase your security, please change your password as soon as possible.
+            Read our documentation on safer password practices.</p>
+        <p>Latest commit 131991a on 14 May </p>
+    </div>
+</div>
 </body>
 </html>

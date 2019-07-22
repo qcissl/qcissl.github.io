@@ -1,3 +1,7 @@
+.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .banner{
     width: 100%;
     height: 400px;
@@ -25,4 +29,30 @@
 }
 .banner_title_sub p{
     font-size: 50px;
+}
+
+.page_list{
+    width: 100%;
+    height: auto;
+    background: rgba(220, 220, 220, 0.5);
+}
+.page_list_entry{
+    border-bottom: 1px solid black;
+}
+.page_list_entry p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.page_list_entry p:nth-child(2){
+    font-size: 15px;
+}
+.page_list_entry p:nth-child(3){
+    text-align: center;
+}
+
+.right_list{
+    width: 100%;
+    height: auto;
+    background: rgba(220, 220, 220, 0.5);
+    border-left: 1px solid wheat;
 }
