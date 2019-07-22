@@ -3,13 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<script src="jQuery/jquery-2.2.3.min.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="jQuery/jquery-2.2.3.min.js"></script>
+    <script src="jQuery/jquery.i18n.properties.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
 <div class="include" file="framework/skin_base/page/head.html"></div>
+<div>
+    <div class="col-md-3"></div>
+    <div class="col-md-9">
+        <div class="include col-md-6" file="framework/skin_base/page/list.html"></div>
+        <div class="include col-md-3" file="framework/skin_base/page/right.html"></div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
 </body>
 <script>
     $(function () {
