@@ -9,6 +9,13 @@
 </head>
 <script type="application/javascript">
     $(function () {
+        $.properties.config({
+            name:'appconfig',
+            path:'config/',
+            callback:function(){
+                console.log($.properties.prop("application.name"));
+            }
+        });
 
     });
 </script>
