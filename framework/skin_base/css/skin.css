@@ -39,7 +39,7 @@
 }
 .page_list_entry{
     padding: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #c3c3c3;
 }
 .page_list_entry p:first-child{
     line-height: 35px;
