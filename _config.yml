@@ -1,21 +1,21 @@
 # Site settings
-title: Mercy Ma
-SEOTitle: 小马哥的技术博客
+title: qcissl
+SEOTitle: qcissl博客
 header-img: img/home-bg.jpg
-email: mercyblitz@gmail.com
-description: "关于程序、设计以及架构 | 小马哥，Javaer ，Software Engineer"
-keyword: "小马哥, mercyblitz, Mercy Ma, 小马哥的技术博客"
-url: "https://weibo.com/mercyblitz"              # your host, for absolute URL
+email: dsdgf@gmail.com
+description: "个人笔记"
+keyword: "个人笔记"
+url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 post:
-  author: mercyblitz
+  author: qcissl
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: true
+RSS: fasle
 weibo_username:     mercyblitz
 github_username:    mercyblitz
 twitter_username:   mercyblitz
@@ -61,7 +61,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: mercyblitz
+disqus_username: qcissl
 
 # Netease settings
 netease_comment: false
@@ -80,7 +80,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "大家好，我是小马哥"
+sidebar-about-description: "呵呵~~"
 sidebar-avatar: /img/avatar-mecyblitz.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
