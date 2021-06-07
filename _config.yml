@@ -16,9 +16,9 @@ future: true
 
 # SNS settings
 RSS: fasle
-weibo_username:     mercyblitz
-github_username:    mercyblitz
-twitter_username:   mercyblitz
+weibo_username:     qcissl
+github_username:    qcissl
+twitter_username:   qcissl
 #facebook_username:  mercyblitz
 #linkedin_username:  firstname-lastname-idxxxx
 
