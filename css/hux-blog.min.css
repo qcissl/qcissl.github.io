@@ -935,7 +935,7 @@ code, kbd, pre, samp {
 
 .navbar-custom .navbar-brand {
     font-weight: 800;
-    color: #4b4b4b;
+    color: #fff;
     height: 56px;
     line-height: 25px
 }
@@ -967,7 +967,7 @@ code, kbd, pre, samp {
     }
 
     .navbar-custom .navbar-brand {
-        color: #4b4b4b;
+        color: #fff;
         padding: 20px;
         line-height: 20px
     }
@@ -1104,7 +1104,7 @@ code, kbd, pre, samp {
 
 .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
     padding: 85px 0 55px;
-    color: #4b4b4b;
+    color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
